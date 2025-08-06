@@ -44,6 +44,19 @@ Handles basic arithmetic operations and invalid inputs using `try...except`.
 - Division by zero check
 - Simple CLI interaction
 
-## Run it with:
+
+# 🔢 Python Number System Converter
+
+CLI tool to convert between Binary, Decimal, and Hexadecimal numbers.
+
+## Features:
+- Binary ↔ Decimal
+- Decimal ↔ Binary
+- Decimal ↔ Hex
+- Hex ↔ Decimal
+- Input validation included
+
+## How to Run:
 ```bash
-python mini_calculator.py
+python number_converter.py
+
