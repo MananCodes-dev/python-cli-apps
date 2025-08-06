@@ -57,6 +57,20 @@ CLI tool to convert between Binary, Decimal, and Hexadecimal numbers.
 - Input validation included
 
 ## How to Run:
-```bash
+
 python number_converter.py
+# 🔐 Python Password Strength Checker
+
+This Python CLI tool checks the strength of a password using:
+- Length
+- Uppercase + lowercase
+- Digits
+- Special characters
+
+## Output:
+- Weak / Medium / Strong
+
+## Run it:
+```bash
+python password_strength_checker.py
 
