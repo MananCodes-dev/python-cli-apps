@@ -71,6 +71,23 @@ This Python CLI tool checks the strength of a password using:
 - Weak / Medium / Strong
 
 ## Run it:
-```bash
+````
+
 python password_strength_checker.py
+
+````
+
+# ✊🖐✌ Rock–Paper–Scissors CLI Game
+
+Python-based CLI version of Rock–Paper–Scissors with score tracking.
+
+## Features:
+- User vs computer
+- Scoreboard tracking
+- Random choices using `random.choice`
+- Loops and clean UX
+
+## Run it:
+```bash
+python rock_paper_scissors.py
 
