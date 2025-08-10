@@ -91,6 +91,19 @@ Python-based CLI version of Rock–Paper–Scissors with score tracking.
 ```
 python rock_paper_scissors.py
 ```
+# 🎲 Python Dice Rolling Game
+
+A simple command-line dice game using Python's `random` module.
+
+## Features:
+- Simulates rolling a 6-sided dice
+- Loops for continuous play
+- Clean CLI interface
+
+## How to Run:
+```
+python dice_game.py
+```
 # ⌨️ Typing Speed Test CLI App
 
 A Python CLI app that measures typing speed and accuracy.
