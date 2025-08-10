@@ -88,6 +88,19 @@ Python-based CLI version of Rock–Paper–Scissors with score tracking.
 - Loops and clean UX
 
 ## Run it:
-```bash
+```
 python rock_paper_scissors.py
+```
+# ⌨️ Typing Speed Test CLI App
 
+A Python CLI app that measures typing speed and accuracy.
+
+## Features:
+- Random sentence selection
+- WPM calculation
+- Accuracy measurement
+- Replayable
+
+## Run it:
+```bash
+python typing_speed_test.py
