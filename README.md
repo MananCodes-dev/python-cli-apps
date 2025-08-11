@@ -131,3 +131,21 @@ A simple Python CLI tool to track expenses in a CSV file.
 ## Run it:
 ```bash
 python expense_tracker.py
+```
+# 🌦 Real-Time Weather App (CLI)
+
+Python CLI app that fetches and displays real-time weather data using the OpenWeatherMap API.
+
+## Features:
+- Get temperature, condition, and humidity
+- Search by city name
+- Celsius units by default
+
+## Setup:
+1. Get a free API key from OpenWeatherMap
+2. Replace `YOUR_API_KEY` in `weather_app.py`
+
+## Run:
+```bash
+python weather_app.py
+```
