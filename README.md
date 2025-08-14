@@ -33,16 +33,6 @@ while True:
     again = input("Generate another? (yes/no): ").lower()
     if again != 'yes':
         break
-# 🧮 Python Mini Calculator
-
-Command-line calculator built in Python.  
-Handles basic arithmetic operations and invalid inputs using `try...except`.
-
-## Features:
-- Addition, subtraction, multiplication, division
-- Input validation
-- Division by zero check
-- Simple CLI interaction
 
 
 # 🔢 Python Number System Converter
