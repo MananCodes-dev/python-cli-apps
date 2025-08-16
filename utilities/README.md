@@ -57,6 +57,84 @@ python url_shortener.py
 Enter the URL to shorten (or 'exit' to quit): https://www.example.com/this-is-a-very-long-url-with-parameters?id=12345
 🔗 Short URL: https://tinyurl.com/abc123
 
+# 🗒 Python Notes App
+
+Simple CLI note-taking tool using file handling in Python.  
+Notes are stored in `notes.txt` and can be viewed or deleted later.
+
+## Features:
+- Add text notes
+- View saved notes
+- Delete all notes
+
+## How to Run
+```
+python notes_app.py
+```
+# 🔢 Python Number System Converter
+
+CLI tool to convert between Binary, Decimal, and Hexadecimal numbers.
+
+## Features:
+- Binary ↔ Decimal
+- Decimal ↔ Binary
+- Decimal ↔ Hex
+- Hex ↔ Decimal
+- Input validation included
+
+## How to Run:
+```
+python number_converter.py
+```
+# 🔐 Python Password Strength Checker
+
+This Python CLI tool checks the strength of a password using:
+- Length
+- Uppercase + lowercase
+- Digits
+- Special characters
+
+## Output:
+- Weak / Medium / Strong
+
+## Run it:
+````
+
+python password_strength_checker.py
+
+````
+# ⌨️ Typing Speed Test CLI App
+
+A Python CLI app that measures typing speed and accuracy.
+
+## Features:
+- Random sentence selection
+- WPM calculation
+- Accuracy measurement
+- Replayable
+
+## Run it:
+```
+python typing_speed_test.py
+```
+# 🌦 Real-Time Weather App (CLI)
+
+Python CLI app that fetches and displays real-time weather data using the OpenWeatherMap API.
+
+## Features:
+- Get temperature, condition, and humidity
+- Search by city name
+- Celsius units by default
+
+## Setup:
+1. Get a free API key from OpenWeatherMap
+2. Replace `YOUR_API_KEY` in `weather_app.py`
+
+## Run:
+```bash
+python weather_app.py
+```
+
 # 🎥 YouTube Video Downloader (CLI)
 
 A Python command-line tool to download YouTube videos in different resolutions (360p, 720p, 1080p).  
