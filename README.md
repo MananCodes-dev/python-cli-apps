@@ -1,141 +1,38 @@
-# 🗒 Python Notes App
+# 🐍 Python CLI Tools – 100 Project Challenge
 
-Simple CLI note-taking tool using file handling in Python.  
-Notes are stored in `notes.txt` and can be viewed or deleted later.
+A growing collection of **Python Command-Line Interface (CLI) tools**, built as part of my journey to master **Python, AI/ML, and Game Development**.  
+This repository is my **100 Days of Code challenge** — every day, I create and share a new CLI app in public.  
 
-## Features:
-- Add text notes
-- View saved notes
-- Delete all notes
+---
 
-## How to Run
-python notes_app.py
+## 🚀 Highlights
+- 📦 16+ CLI tools so far (new projects added daily)  
+- 🎯 Covers utilities, games, productivity, file handling, and more  
+- 🧑‍💻 Written entirely in **Python 3**  
+- 📂 Organized into categories for easy navigation  
+- 🌟 Each tool has its own **README + usage guide**  
 
-import random
-import string
+---
 
-def generate_password(length):
-    if length < 4:
-        return "Password too short!"
-    
-    characters = string.ascii_letters + string.digits + string.punctuation
-    password = ''.join(random.sample(characters, length))
-    return password
+## 📂 Project Categories
+- 🧮 [**Calculators**](./calculators) – mini calculator, converters  
+- 🎮 [**Games**](./games) – dice game, rock-paper-scissors  
+- ⚡ [**Utilities**](./utilities) – password generator, URL shortener, YouTube downloader, currency converter  
+- 💰 [**Trackers**](./trackers) – expense tracker  
+- 🧑‍🔬 [**Language**](./language) – MiniCalcLang (my custom coding language!)  
 
-while True:
-    print("\n🔐 Password Generator")
-    try:
-        length = int(input("Enter desired password length: "))
-        print("Your password:", generate_password(length))
-    except ValueError:
-        print("Please enter a number.")
+---
 
-    again = input("Generate another? (yes/no): ").lower()
-    if again != 'yes':
-        break
+## 🛠 Tech Stack
+- **Language:** Python 3.x  
+- **Core Libraries:** `requests`, `pytube`, `re`, `csv`, `random`, etc.  
+- **Tools:** GitHub, Notion, VS Code  
 
+---
 
-# 🔢 Python Number System Converter
-
-CLI tool to convert between Binary, Decimal, and Hexadecimal numbers.
-
-## Features:
-- Binary ↔ Decimal
-- Decimal ↔ Binary
-- Decimal ↔ Hex
-- Hex ↔ Decimal
-- Input validation included
-
-## How to Run:
-
-python number_converter.py
-# 🔐 Python Password Strength Checker
-
-This Python CLI tool checks the strength of a password using:
-- Length
-- Uppercase + lowercase
-- Digits
-- Special characters
-
-## Output:
-- Weak / Medium / Strong
-
-## Run it:
-````
-
-python password_strength_checker.py
-
-````
-
-# ✊🖐✌ Rock–Paper–Scissors CLI Game
-
-Python-based CLI version of Rock–Paper–Scissors with score tracking.
-
-## Features:
-- User vs computer
-- Scoreboard tracking
-- Random choices using `random.choice`
-- Loops and clean UX
-
-## Run it:
+## ▶️ Usage
+Clone the repo:
 ```
-python rock_paper_scissors.py
-```
-# 🎲 Python Dice Rolling Game
-
-A simple command-line dice game using Python's `random` module.
-
-## Features:
-- Simulates rolling a 6-sided dice
-- Loops for continuous play
-- Clean CLI interface
-
-## How to Run:
-```
-python dice_game.py
-```
-# ⌨️ Typing Speed Test CLI App
-
-A Python CLI app that measures typing speed and accuracy.
-
-## Features:
-- Random sentence selection
-- WPM calculation
-- Accuracy measurement
-- Replayable
-
-## Run it:
-```
-python typing_speed_test.py
-```
-# 💰 Python Expense Tracker CLI
-
-A simple Python CLI tool to track expenses in a CSV file.
-
-## Features:
-- Add new expense with date, category, note
-- View all expenses
-- Calculate total spent
-- CSV storage for persistence
-
-## Run it:
-```bash
-python expense_tracker.py
-```
-# 🌦 Real-Time Weather App (CLI)
-
-Python CLI app that fetches and displays real-time weather data using the OpenWeatherMap API.
-
-## Features:
-- Get temperature, condition, and humidity
-- Search by city name
-- Celsius units by default
-
-## Setup:
-1. Get a free API key from OpenWeatherMap
-2. Replace `YOUR_API_KEY` in `weather_app.py`
-
-## Run:
-```bash
-python weather_app.py
+git clone https://github.com/MananCodes-dev/python-cli-apps.git
+cd python-cli-apps
 ```
