@@ -1,27 +1,27 @@
-# 🎥 YouTube Video Downloader (CLI)
+# 🧮 MiniCalcLang – A Custom Calculator Language
 
-A Python command-line tool to download YouTube videos in different resolutions (360p, 720p, 1080p).  
-Built with the **pytube** library.
+A simple interpreted language built in Python that can evaluate math expressions.  
+This project marks the **beginning of my language design journey** as part of the *100 Python CLI Tools Challenge*.  
 
 ---
 
 ## 🚀 Features
-- Download any YouTube video by URL  
-- Choose resolution (360p, 720p, 1080p)  
-- Save video locally with original title  
-- Error handling for invalid URLs or unavailable streams  
-- Optional: Download audio-only version (future update)
+- Supports basic arithmetic: `+`, `-`, `*`, `/`  
+- Handles parentheses: `(10 - 3) * 2`  
+- Interactive **REPL (Read-Eval-Print Loop)**  
+- Tokenizer + Evaluator design (baby steps into interpreters)  
 
 ---
 
 ## 🛠 Tech Stack
 - **Language:** Python 3.x 🐍  
-- **Libraries:** `pytube`
+- **Libraries:** `re` (regex for tokenizing)
 
 ---
 
 ## 📦 Installation
-Install dependencies first:
+Clone the repo:
 ```
-pip install pytube
+git clone https://github.com/MananCodes-dev/python-cli-apps.git
+cd python-cli-apps/languages
 ```
