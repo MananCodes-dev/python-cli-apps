@@ -24,38 +24,6 @@ A Python command-line tool that converts between any two currencies in real-time
 git clone https://github.com/MananCodes-dev/python-cli-apps.git
 cd python-cli-apps
 ```
-# 🔗 URL Shortener (CLI)
-
-A Python command-line tool that shortens long URLs using the [TinyURL API](https://tinyurl.com/).
-
----
-
-## 🚀 Features
-- Shorten any valid URL instantly
-- Simple CLI interface
-- No API key required
-- Works with any website link
-
----
-
-## 🛠 Tech Stack
-- **Language:** Python 3.x 🐍
-- **Libraries:** `requests`
-- **API:** [TinyURL API](https://tinyurl.com/)
-
----
-
-## 📦 Installation
-```
-git clone https://github.com/MananCodes-dev/python-cli-apps.git
-cd python-cli-apps/utilities
-```
-## How to Run
-```
-python url_shortener.py
-```
-Enter the URL to shorten (or 'exit' to quit): https://www.example.com/this-is-a-very-long-url-with-parameters?id=12345
-🔗 Short URL: https://tinyurl.com/abc123
 
 # 🗒 Python Notes App
 
@@ -117,6 +85,39 @@ A Python CLI app that measures typing speed and accuracy.
 ```
 python typing_speed_test.py
 ```
+# 🔗 URL Shortener (CLI)
+
+A Python command-line tool that shortens long URLs using the [TinyURL API](https://tinyurl.com/).
+
+---
+
+## 🚀 Features
+- Shorten any valid URL instantly
+- Simple CLI interface
+- No API key required
+- Works with any website link
+
+---
+
+## 🛠 Tech Stack
+- **Language:** Python 3.x 🐍
+- **Libraries:** `requests`
+- **API:** [TinyURL API](https://tinyurl.com/)
+
+---
+
+## 📦 Installation
+```
+git clone https://github.com/MananCodes-dev/python-cli-apps.git
+cd python-cli-apps/utilities
+```
+## How to Run
+```
+python url_shortener.py
+```
+Enter the URL to shorten (or 'exit' to quit): https://www.example.com/this-is-a-very-long-url-with-parameters?id=12345
+🔗 Short URL: https://tinyurl.com/abc123
+
 # 🌦 Real-Time Weather App (CLI)
 
 Python CLI app that fetches and displays real-time weather data using the OpenWeatherMap API.
