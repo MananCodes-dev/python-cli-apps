@@ -233,7 +233,7 @@ result = x * y + 5
 print(result)  # Output: 205
 ```
 
-[**🔗 View MiniCalcLang Documentation**](./language/README.md)
+[**🔗 View MiniCalcLang Documentation**](./Language/README.md)
 
 ---
 
