@@ -365,7 +365,7 @@ Current: Expanding MiniCalcLang and AI integration planning
 
 ### Follow My Journey
 - 🐦 **Twitter**: [@UnfilteredManan](https://x.com/UnfilteredManan) - Daily updates and insights
-- 💬 **Discord**: `manan_codes` - Direct messages and community
+- 🎮 **Discord**: `manan_codes` - Direct messages and community
 - 📧 **GitHub Issues** - Technical discussions and feedback
 
 ---
