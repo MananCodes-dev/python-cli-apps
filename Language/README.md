@@ -18,7 +18,7 @@ This project marks the **beginning of my language design journey** as part of th
 - **Libraries:** `re` (regex for tokenizing)
 
 ---
-# MiniCalcLang V2 - Programming Language with Variables
+# 🧮 MiniCalcLang V2 - Programming Language with Variables
 
 A simple mathematical programming language built in Python that supports variables, expressions, and interactive commands. Created as part of my 100-day developer roadmap journey.
 
